@@ -33,6 +33,7 @@
       },
       "runtime" : {
          "requires" : {
+            "Devel::PartialDump" : 0,
             "Hash::Util::FieldHash::Compat" : 0,
             "MooseX::LogDispatch" : 0,
             "MooseX::POE" : "0.210",
@@ -52,5 +53,5 @@
          "url" : "https://github.com/nothingmuch/poe-component-supervisor"
       }
    },
-   "version" : "0.07"
+   "version" : "0.08"
 }
