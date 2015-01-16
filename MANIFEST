@@ -1,0 +1,24 @@
+Changes
+lib/POE/Component/Supervisor.pm
+lib/POE/Component/Supervisor/Handle.pm
+lib/POE/Component/Supervisor/Handle/Interface.pm
+lib/POE/Component/Supervisor/Handle/Proc.pm
+lib/POE/Component/Supervisor/Handle/Session.pm
+lib/POE/Component/Supervisor/Interface.pm
+lib/POE/Component/Supervisor/LogDispatch.pm
+lib/POE/Component/Supervisor/Supervised.pm
+lib/POE/Component/Supervisor/Supervised/Interface.pm
+lib/POE/Component/Supervisor/Supervised/Proc.pm
+lib/POE/Component/Supervisor/Supervised/Session.pm
+Makefile.PL
+MANIFEST			This list of files
+MANIFEST.SKIP
+MYMETA.json
+MYMETA.yml
+t/01_load.t
+t/02_basic.t
+t/03_stubborn.t
+t/04_global_restart_policy.t
+t/05_sessions.t
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)

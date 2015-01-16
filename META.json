@@ -1,0 +1,56 @@
+{
+   "abstract" : "unknown",
+   "author" : [
+      "unknown"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.113640",
+   "license" : [
+      "unknown"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "POE-Component-Supervisor",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Log::Dispatch::Config::TestLog" : 0,
+            "Test::More" : 0
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : 0
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Hash::Util::FieldHash::Compat" : 0,
+            "MooseX::LogDispatch" : 0,
+            "MooseX::POE" : "0.210",
+            "POE" : "1.0002",
+            "POE::API::Peek" : "2.13",
+            "Set::Object" : 0,
+            "namespace::clean" : 0
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=POE-Component-Supervisor"
+      },
+      "repository" : {
+         "url" : "https://github.com/nothingmuch/poe-component-supervisor"
+      }
+   },
+   "version" : "0.07"
+}
